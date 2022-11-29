@@ -1,11 +1,16 @@
 body {
     background-color: #E89F83;
     text-align: center;
+
 }
-.carousel-control { background-color: rgba(255, 0, 0, 0); }
+#welcome {
+    background-color: #E89F83;
+    
+}
 
 .logo {
-    width: 600px;
+    width: 50%;
+    padding: 5%;
 }
 
 .linha {
@@ -20,16 +25,42 @@ body {
 
 }
 
-p {
+.pa {
+    font-size: 30px;
+    padding: 50px;
+    font-family: 'EB Garamond', serif;
+}
+
+.pa2 {
     font-family: 'EB Garamond', serif;
     font-size: x-large;
-    padding: 50px;
+    padding: 15%;
+    background-image: url("linhaestranha.png");
+    background-size: 100%;
+}
+.pa3 {
+    font-family: 'EB Garamond', serif;
+    font-size: x-large;
+    
+    padding: 15%;
+}
+.pa4 {
+    font-family: 'EB Garamond', serif;
+    font-size: x-large;
+    padding: 3%;
+   
 }
 
 #bio {
-    background-image: url("linhaestranha.png");
+    
+    
+    background-color: #E89F83;
+
+}
+#biofoto{
     background-size: 100%;
-    padding-top: 166px;
+
+    background-image: url("linhaestranha.png");
 }
 
 .tiy {
@@ -38,17 +69,16 @@ p {
     color: #492E23;
 }
 
-#myCarrossel {
-    background-color: rgb(55, 0, 255);
-    background-image: url("tcanraran.png");
-height: 75%;
-background-size:100% ;
-
-
+#mapa{
+    background-color: #E89F83;
+    padding: 5%;
 }
-.carousel-control { background-color: rgba(255, 0, 0, 0); }
-.pa{
-font-size: 90px;
-
-
+#avaliacoes{
+    background-color: #E89F83;
+    padding: 5%;
+}
+#myCarousel{
+    background-image: url("tcanraran.png");
+    background-size: 100%;
+    padding: 15%;
 }
